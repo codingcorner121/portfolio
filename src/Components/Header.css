@@ -1,0 +1,60 @@
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+
+    border-bottom: 2px solid #1e034235;
+
+}
+
+.header>h1{
+    font-size: 28px;
+    color: #1E0342;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    gap: 30px;
+    
+
+    
+}
+
+.menu-link{
+    text-decoration: none;
+    color: #1E0342;
+
+}
+.menu-link:hover{
+    font-weight: bold;
+}
+
+.bar_menu{
+    display: none;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1000px){
+
+    .menu{
+        display: none;
+    }
+
+    .bar_menu{
+        display: block;
+    }
+
+    .header > button{
+        display: none;
+    }
+
+
+}
+

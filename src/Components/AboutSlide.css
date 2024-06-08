@@ -1,0 +1,37 @@
+.about_slide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.about_img{
+    max-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    
+    border-radius: 30px;
+}
+
+.about_content_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 28px;
+    
+
+}
+
+@media only screen and (max-width:1000px){
+    
+}
+
+@media only screen and (max-width:750px){
+
+    .about_slide{
+        
+        grid-template-columns: 1fr;
+
+    }
+
+}

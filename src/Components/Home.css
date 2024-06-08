@@ -1,0 +1,27 @@
+
+
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.banner-img{
+    max-width: 100%;
+    border-radius: 300px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 28px;
+
+    
+
+    
+}
+
+
+

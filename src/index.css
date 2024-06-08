@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.section{
+    padding: 80px 8%;
 }
+
+button{
+    background-color: #1E0342;
+    border: 2px solid #1E0342;
+
+    color: #ffffff;
+
+    padding: 10px 30px;
+    min-width: 160px;
+    min-height: 45px;
+
+    border-radius: 40px;
+}
+
+button:hover{
+
+    
+    background-color:#ffffff ;
+    color: #1E0342;
+}
+
+p{
+    background-color: transparent;
+}
+
+h1{
+    
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+h2{
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+h3{
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+h4{
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+h5{
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+h6{
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+p{
+    background-color: transparent;
+    font-family: "Rubik", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+
+}
+
+
+
+

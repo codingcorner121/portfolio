@@ -1,0 +1,35 @@
+.experience{
+    background-image: url("/public/Images/experience.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+
+    display: flex;
+    justify-content: start;
+    
+    gap: 50px;
+}
+
+.experience_content{
+    max-width: 600px;
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 28px;
+
+    border-radius: 30px;
+
+    backdrop-filter: blur(10px);
+    background-color: #ffffff80;
+}
+
+@media only screen and (max-width:1000px){
+
+    .experience_content{
+        max-width: 100%;
+    }
+
+   
+}
