@@ -16,11 +16,11 @@ function Home(){
     return(
         <div>
             <Header/>
-            <FirstSLide/>
+            <FirstSLide/>            
             
             <AboutSlide/>
             <Experience/>
-            <Skill/>
+            <Skill/>            
             <Project/>
             <Footer/>
 

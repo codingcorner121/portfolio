@@ -1,27 +1,18 @@
+.section_split{
+    margin: 0 0%;
 
+    border: none;
 
-.banner{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-}
+    /* border-top: 1px solid #00000050; */
 
-.banner-img{
-    max-width: 100%;
-    border-radius: 300px;
-}
-
-.banner-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    gap: 28px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.40);
 
     
 
-    
+  
 }
+
+
 
 
 
